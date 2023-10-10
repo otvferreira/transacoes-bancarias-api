@@ -1,0 +1,13 @@
+package com.bancosimplesproject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BancosimplesprojectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BancosimplesprojectApplication.class, args);
+	}
+
+}
