@@ -10,5 +10,5 @@ import java.util.Optional;
 public interface UsuarioRepository extends JpaRepository<UsuarioEntity, Long> {
 
     Optional<UsuarioEntity> findUserByCPFCNPJ(String cpjcnpj);
-    Optional<UsuarioEntity> findUsuarioById(Long aLong);
+    Optional<UsuarioEntity> findUserById(Long aLong);
 }

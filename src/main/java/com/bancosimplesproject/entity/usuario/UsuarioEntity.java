@@ -1,5 +1,6 @@
 package com.bancosimplesproject.entity.usuario;
 
+import com.bancosimplesproject.entity.Tipo;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

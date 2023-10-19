@@ -1,6 +1,6 @@
 package com.bancosimplesproject.service;
 
-import com.bancosimplesproject.entity.usuario.Tipo;
+import com.bancosimplesproject.entity.Tipo;
 import com.bancosimplesproject.entity.usuario.UsuarioEntity;
 import com.bancosimplesproject.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
