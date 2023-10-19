@@ -1,6 +1,5 @@
 package com.bancosimplesproject.entity.usuario;
 
-import com.bancosimplesproject.entity.usuario.Tipo;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -26,7 +25,7 @@ public class UsuarioEntity {
     private String sobrenome;
 
     @Column(unique = true)
-    private String cpfcnpj;
+    private String CPFCNPJ;
 
     @Column(unique = true)
     private String email;
